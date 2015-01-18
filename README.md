@@ -7,9 +7,7 @@ It makes it easy to visualize what handlers are being executed for each event, a
 
 ## Usage
 
-Create a bookmarklet from the link [jQuery Event Logger]("javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://rawgit.com/srizzo/jqueryeventlogger/master/dist/jqueryeventlogger.min.js';})();")
-
-Or, create a bookmarklet with the following contents:
+Create a bookmarklet with the following content:
 
     javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://rawgit.com/srizzo/jqueryeventlogger/master/dist/jqueryeventlogger.min.js';})();
 
