@@ -7,16 +7,11 @@ It makes it easy to visualize what handlers are being executed for each event, a
 
 ## Usage
 
-
-Add the following link as a bookmarklet:
-<a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://rawgit.com/srizzo/jqueryeventlogger/master/dist/jqueryeventlogger.min.js';})();">jQuery Event Logger</a>
-
-Or create one with the contents:
+Create a bookmarklet with the following content:
 
     javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://rawgit.com/srizzo/jqueryeventlogger/master/dist/jqueryeventlogger.min.js';})();
 
-## Limitations
+Activate the bookmarklet, open the Javascript Console, and follow the logs as you interact with your page.
 
-Currently, events are analyzed at the bookmarklet activation time. Reload the bookmarklet to log events bound after that.
 
-Also, only events with handlers attached to it will be logged.
+See it in use [here](http://srizzo.github.io/jqueryeventlogger/)
