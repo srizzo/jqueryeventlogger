@@ -9,7 +9,7 @@ It makes it easy to visualize what handlers are being executed for each event, a
 
 Create a bookmarklet with the following content:
 
-    javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://rawgit.com/srizzo/jqueryeventlogger/master/dist/jqueryeventlogger.min.js';})();
+    javascript:(function(){document.body.appendChild(document.createElement('script')).src='//rawgit.com/srizzo/jqueryeventlogger/master/dist/jqueryeventlogger.min.js';})();
 
 Activate the bookmarklet, open the Javascript Console and interact with your page.
 
